@@ -1,0 +1,61 @@
+Hello world!!!
+
+            // System.Console.WriteLine("Add your first number");
+            // int q = Convert.ToInt32(Console.ReadLine());
+            // System.Console.WriteLine("Add your second number");
+            // int w = Convert.ToInt32(Console.ReadLine());
+            // Console.WriteLine("Your sum is: " + Sum(q, w));
+
+            // double i = Math.Pow(1.4234, 3);
+            // Console.WriteLine(Math.Ceiling(i));
+
+            // string word = "Hello!";
+            // System.Console.WriteLine(word.Substring(0, word.Length - 1));
+
+            // ---------------------------------------------------------------------------
+            // System.Console.WriteLine("Введите текст: ");
+            // string text = Console.ReadLine();
+
+            // using (FileStream stream = new FileStream("info.txt", FileMode.OpenOrCreate)) {
+            //     byte[] array =System.Text.Encoding.Default.GetBytes(text);
+
+            //     stream.Write(array, 0, array.Length);
+            // }
+
+            // ---------------------------------------------------------------------------
+
+            // using(FileStream stream1 = File.OpenRead("info.txt")) {
+            //     byte[] array = new byte[stream1.Length];
+
+            //     stream1.Read(array, 0, array.Length);
+
+            //     string textFromFile = System.Text.Encoding.Default.GetString(array);
+            //     System.Console.WriteLine(textFromFile); 
+            // }
+
+            // ---------------------------------------------------------------------------
+
+            
+
+            // try {
+            //     int num = Convert.ToInt32(Console.ReadLine());
+            //     System.Console.WriteLine(num);
+            // } catch(FormatException) {
+            //     System.Console.WriteLine("Не верный формат набора!");
+            // }
+
+            // try {
+            // int a, b, res;
+            // System.Console.Write("Введите первое число: ");
+            // a = Convert.ToInt32(Console.ReadLine());
+            // System.Console.Write("Введите второе число: ");
+            // b = Convert.ToInt32(Console.ReadLine());
+            // res = a / b;
+            // System.Console.WriteLine("Рузультат: " + res);
+            // } catch(DivideByZeroException) {
+            //     System.Console.WriteLine("На ноль делить нельзя)");
+            // } catch(FormatException) {
+            //     System.Console.WriteLine("Не верный формат набора!");
+            // } finally {
+            //     System.Console.WriteLine("Хорошего дня!");
+            // }
